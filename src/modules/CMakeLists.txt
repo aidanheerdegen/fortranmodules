@@ -1,0 +1,3 @@
+# bar library
+SET(MOD_src ${SRCMOD}/array_functions.f90 ${SRCMOD}/binary_io.f90 ${SRCMOD}/cartesian_class.f90 ${SRCMOD}/cluster_functions.f90 ${SRCMOD}/cmdline_arguments.f90 ${SRCMOD}/file_functions.f90 ${SRCMOD}/fundamental_constants.f90 ${SRCMOD}/hash_table.f90 ${SRCMOD}/image_transforms.f90 ${SRCMOD}/kdtree2.f90 ${SRCMOD}/keyword_class.f90 ${SRCMOD}/mol2_class.f90 ${SRCMOD}/pnm_class.f90 ${SRCMOD}/polysample.f90 ${SRCMOD}/precision.f90 ${SRCMOD}/quaternion_class.f90 ${SRCMOD}/regrid.f90 ${SRCMOD}/rotmatrix_class.f90 ${SRCMOD}/sort_functions.f90 ${SRCMOD}/statistics.f90 ${SRCMOD}/string_functions.f90 ${SRCMOD}/variable_array.f90 ${SRCMOD}/varying_string.f90 ${SRCMOD}/vector_class.f90 ${SRCMOD}/zmatrix_class.f90)
+ADD_LIBRARY(${MODLIB} STATIC ${MOD_src})
